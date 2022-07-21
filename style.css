@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background-color: #e5e5e5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app {
+  width: 300px;
+  height: 600px;
+  border-radius: 5px;
+  border: solid #3acb12;
+  padding: 15px;
+  overflow-y: scroll;
+
+}
+.app::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+#addNew {
+  background-color: #85cf71;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fa-circle-plus {
+  background-color: #abcea1;
+}
+
+#tasks {
+  display: grid;
+  gap: 15px;
+}
+
+#tasks div {
+  background-color: #e2eede;
+  border-radius: 8px;
+  display: grid;
+  gap: 5px;
+  border: 3px solid #abcea1;
+}
+
+.options{
+    display: flex;
+    justify-self: center;
+    gap: 25px;
+    
+}
+
+.options i{
+    cursor: pointer;
+}
+
+#msg{
+  color: red;
+}
